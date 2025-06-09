@@ -1,0 +1,17 @@
+[
+    {
+        "Id": 1,
+        "Codigo": "PETR4",
+        "Nome": "Petrobras PN"
+    },
+    {
+        "Id": 2,
+        "Codigo": "VALE3",
+        "Nome": "Vale ON"
+    },
+    {
+        "Id": 3,
+        "Codigo": "ITUB4",
+        "Nome": "Itaú Unibanco PN"
+    }
+]

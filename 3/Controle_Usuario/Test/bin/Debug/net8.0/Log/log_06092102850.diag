@@ -1,0 +1,16 @@
+2025-06-09T21:28:02.8570972+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-06-09T21:28:02.8826166+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-06-09T21:28:02.8841754+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-06-09T21:28:02.8841811+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 21:28:02.824
+2025-06-09T21:28:02.8868627+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 16464
+2025-06-09T21:28:02.8870655+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.16
+2025-06-09T21:28:02.8870834+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.16\System.Private.CoreLib.dll
+2025-06-09T21:28:02.8870941+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-06-09T21:28:02.8870966+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\leand\Documents\PS Itaú\3\Controle_Usuario\Test\bin\Debug\net8.0\Test.dll
+2025-06-09T21:28:02.8873813+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\leand\Documents\PS Itaú\3\Controle_Usuario\Test\bin\Debug\net8.0\Log --results-directory C:\Users\leand\Documents\PS Itaú\3\Controle_Usuario\TestResults --client-port 61344'
+2025-06-09T21:28:02.8887691+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-06-09T21:28:02.9156722+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-06-09T21:28:02.9200330+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\leand\Documents\PS Itaú\3\Controle_Usuario\Test\bin\Debug\net8.0\Test.testconfig.json' not found.
+2025-06-09T21:28:02.9213369+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-06-09T21:28:03.0898167+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.6.4' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-06-09T21:28:03.2069110+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\leand\Documents\PS Itaú\3\Controle_Usuario\Test\bin\Debug\net8.0\Test.dll (Workers: 8, Scope: MethodLevel)

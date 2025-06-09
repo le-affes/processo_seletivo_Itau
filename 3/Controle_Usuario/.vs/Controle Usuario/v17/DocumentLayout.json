@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\3\\Controle_Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{756B5D5D-6853-4959-BED2-07FB23DF770B}|Controle_Usuario\\ControleUsuario.csproj|c:\\users\\leand\\documents\\ps ita\u00FA\\3\\controle_usuario\\controle_usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756B5D5D-6853-4959-BED2-07FB23DF770B}|Controle_Usuario\\ControleUsuario.csproj|solutionrelative:controle_usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756B5D5D-6853-4959-BED2-07FB23DF770B}|Controle_Usuario\\ControleUsuario.csproj|c:\\users\\leand\\documents\\ps ita\u00FA\\3\\controle_usuario\\controle_usuario\\application\\services\\analisefinanceiraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756B5D5D-6853-4959-BED2-07FB23DF770B}|Controle_Usuario\\ControleUsuario.csproj|solutionrelative:controle_usuario\\application\\services\\analisefinanceiraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\3\\Controle_Usuario\\Controle_Usuario\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controle_Usuario\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\3\\Controle_Usuario\\Controle_Usuario\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controle_Usuario\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:34:25.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnaliseFinanceiraService.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\3\\Controle_Usuario\\Controle_Usuario\\Application\\Services\\AnaliseFinanceiraService.cs",
+              "RelativeDocumentMoniker": "Controle_Usuario\\Application\\Services\\AnaliseFinanceiraService.cs",
+              "ToolTip": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\3\\Controle_Usuario\\Controle_Usuario\\Application\\Services\\AnaliseFinanceiraService.cs",
+              "RelativeToolTip": "Controle_Usuario\\Application\\Services\\AnaliseFinanceiraService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:24:04.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

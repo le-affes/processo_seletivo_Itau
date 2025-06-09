@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "IdUsuario": 1,
+    "IdAtivo": 1,
+    "Quantidade": 100,
+    "PrecoUni": 20.00,
+    "Tipo": "C",
+    "Corretagem": 5.00,
+    "DtHora": "2025-05-15T09:00:00"
+  },
+  {
+    "Id": 2,
+    "IdUsuario": 1,
+    "IdAtivo": 2,
+    "Quantidade": 50,
+    "PrecoUni": 34.00,
+    "Tipo": "C",
+    "Corretagem": 3.00,
+    "DtHora": "2025-05-16T11:00:00"
+  },
+  {
+    "Id": 3,
+    "IdUsuario": 1,
+    "IdAtivo": 3,
+    "Quantidade": 30,
+    "PrecoUni": 57.00,
+    "Tipo": "C",
+    "Corretagem": 2.00,
+    "DtHora": "2025-05-17T14:00:00"
+  },
+  {
+    "Id": 4,
+    "IdUsuario": 2,
+    "IdAtivo": 1,
+    "Quantidade": 120,
+    "PrecoUni": 19.50,
+    "Tipo": "C",
+    "Corretagem": 4.00,
+    "DtHora": "2025-05-18T10:30:00"
+  },
+  {
+    "Id": 5,
+    "IdUsuario": 2,
+    "IdAtivo": 2,
+    "Quantidade": 60,
+    "PrecoUni": 35.00,
+    "Tipo": "C",
+    "Corretagem": 3.00,
+    "DtHora": "2025-05-19T13:20:00"
+  },
+  {
+    "Id": 6,
+    "IdUsuario": 2,
+    "IdAtivo": 2,
+    "Quantidade": 20,
+    "PrecoUni": 36.00,
+    "Tipo": "V",
+    "Corretagem": 1.50,
+    "DtHora": "2025-05-21T10:00:00"
+  },
+  {
+    "Id": 7,
+    "IdUsuario": 3,
+    "IdAtivo": 3,
+    "Quantidade": 80,
+    "PrecoUni": 58.00,
+    "Tipo": "C",
+    "Corretagem": 5.50,
+    "DtHora": "2025-05-22T09:45:00"
+  },
+  {
+    "Id": 8,
+    "IdUsuario": 3,
+    "IdAtivo": 3,
+    "Quantidade": 30,
+    "PrecoUni": 59.00,
+    "Tipo": "V",
+    "Corretagem": 2.00,
+    "DtHora": "2025-05-25T11:15:00"
+  },
+  {
+    "Id": 9,
+    "IdUsuario": 1,
+    "IdAtivo": 1,
+    "Quantidade": 50,
+    "PrecoUni": 21.00,
+    "Tipo": "V",
+    "Corretagem": 2.50,
+    "DtHora": "2025-05-26T10:00:00"
+  },
+  {
+    "Id": 10,
+    "IdUsuario": 2,
+    "IdAtivo": 1,
+    "Quantidade": 20,
+    "PrecoUni": 20.50,
+    "Tipo": "V",
+    "Corretagem": 1.00,
+    "DtHora": "2025-05-28T15:00:00"
+  },
+  {
+    "Id": 11,
+    "IdUsuario": 3,
+    "IdAtivo": 2,
+    "Quantidade": 70,
+    "PrecoUni": 34.50,
+    "Tipo": "C",
+    "Corretagem": 3.50,
+    "DtHora": "2025-05-29T12:30:00"
+  },
+  {
+    "Id": 12,
+    "IdUsuario": 3,
+    "IdAtivo": 2,
+    "Quantidade": 30,
+    "PrecoUni": 35.00,
+    "Tipo": "V",
+    "Corretagem": 1.50,
+    "DtHora": "2025-05-30T14:00:00"
+  },
+  {
+    "Id": 13,
+    "IdUsuario": 1,
+    "IdAtivo": 3,
+    "Quantidade": 10,
+    "PrecoUni": 57.50,
+    "Tipo": "C",
+    "Corretagem": 1.00,
+    "DtHora": "2025-06-01T10:00:00"
+  },
+  {
+    "Id": 14,
+    "IdUsuario": 2,
+    "IdAtivo": 3,
+    "Quantidade": 20,
+    "PrecoUni": 58.80,
+    "Tipo": "C",
+    "Corretagem": 2.00,
+    "DtHora": "2025-06-02T11:00:00"
+  },
+  {
+    "Id": 15,
+    "IdUsuario": 3,
+    "IdAtivo": 1,
+    "Quantidade": 40,
+    "PrecoUni": 21.20,
+    "Tipo": "C",
+    "Corretagem": 1.20,
+    "DtHora": "2025-06-03T13:30:00"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "IdAtivo": 1,
+    "PrcoUni": 20.50,
+    "DtHora": "2025-06-07T10:00:00"
+  },
+  {
+    "Id": 2,
+    "IdAtivo": 2,
+    "PrcoUni": 35.10,
+    "DtHora": "2025-06-07T10:00:00"
+  },
+  {
+    "Id": 3,
+    "IdAtivo": 3,
+    "PrcoUni": 58.75,
+    "DtHora": "2025-06-07T10:00:00"
+  },
+  {
+    "Id": 4,
+    "IdAtivo": 1,
+    "PrcoUni": 21.20,
+    "DtHora": "2025-06-06T10:00:00"
+  },
+  {
+    "Id": 5,
+    "IdAtivo": 2,
+    "PrcoUni": 34.60,
+    "DtHora": "2025-06-06T10:00:00"
+  },
+  {
+    "Id": 6,
+    "IdAtivo": 3,
+    "PrcoUni": 59.10,
+    "DtHora": "2025-06-06T10:00:00"
+  },
+  {
+    "Id": 7,
+    "IdAtivo": 1,
+    "PrcoUni": 19.80,
+    "DtHora": "2025-06-05T10:00:00"
+  },
+  {
+    "Id": 8,
+    "IdAtivo": 2,
+    "PrcoUni": 36.00,
+    "DtHora": "2025-06-05T10:00:00"
+  },
+  {
+    "Id": 9,
+    "IdAtivo": 3,
+    "PrcoUni": 57.95,
+    "DtHora": "2025-06-05T10:00:00"
+  },
+  {
+    "Id": 10,
+    "IdAtivo": 1,
+    "PrcoUni": 20.00,
+    "DtHora": "2025-06-04T10:00:00"
+  },
+  {
+    "Id": 11,
+    "IdAtivo": 2,
+    "PrcoUni": 33.50,
+    "DtHora": "2025-06-04T10:00:00"
+  },
+  {
+    "Id": 12,
+    "IdAtivo": 3,
+    "PrcoUni": 58.20,
+    "DtHora": "2025-06-04T10:00:00"
+  },
+  {
+    "Id": 13,
+    "IdAtivo": 1,
+    "PrcoUni": 21.00,
+    "DtHora": "2025-06-03T10:00:00"
+  },
+  {
+    "Id": 14,
+    "IdAtivo": 2,
+    "PrcoUni": 34.75,
+    "DtHora": "2025-06-03T10:00:00"
+  },
+  {
+    "Id": 15,
+    "IdAtivo": 3,
+    "PrcoUni": 58.50,
+    "DtHora": "2025-06-03T10:00:00"
+  }
+]

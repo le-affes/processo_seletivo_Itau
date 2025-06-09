@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "IdUsuario": 1,
+    "IdAtivo": 1,
+    "Quantidade": 50,
+    "PrecoMedio": 20.00,
+    "PL": 25.00
+  },
+  {
+    "Id": 2,
+    "IdUsuario": 1,
+    "IdAtivo": 2,
+    "Quantidade": 50,
+    "PrecoMedio": 34.00,
+    "PL": 55.00
+  },
+  {
+    "Id": 3,
+    "IdUsuario": 1,
+    "IdAtivo": 3,
+    "Quantidade": 40,
+    "PrecoMedio": 57.25,
+    "PL": 60.00
+  },
+  {
+    "Id": 4,
+    "IdUsuario": 2,
+    "IdAtivo": 1,
+    "Quantidade": 100,
+    "PrecoMedio": 19.50,
+    "PL": 100.00
+  },
+  {
+    "Id": 5,
+    "IdUsuario": 2,
+    "IdAtivo": 2,
+    "Quantidade": 40,
+    "PrecoMedio": 35.00,
+    "PL": 44.00
+  },
+  {
+    "Id": 6,
+    "IdUsuario": 2,
+    "IdAtivo": 3,
+    "Quantidade": 20,
+    "PrecoMedio": 58.80,
+    "PL": 9.00
+  },
+  {
+    "Id": 7,
+    "IdUsuario": 3,
+    "IdAtivo": 3,
+    "Quantidade": 50,
+    "PrecoMedio": 58.00,
+    "PL": 37.50
+  },
+  {
+    "Id": 8,
+    "IdUsuario": 3,
+    "IdAtivo": 2,
+    "Quantidade": 40,
+    "PrecoMedio": 34.50,
+    "PL": 24.00
+  },
+  {
+    "Id": 9,
+    "IdUsuario": 3,
+    "IdAtivo": 1,
+    "Quantidade": 40,
+    "PrecoMedio": 21.20,
+    "PL": -28.00
+  }
+]

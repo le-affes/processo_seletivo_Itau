@@ -1,0 +1,104 @@
+﻿@using ControleUsuario.Application.Dtos
+@model ResumoInvestidorDto
+
+@{
+    ViewData["Title"] = "Resumo do Investidor";
+}
+
+<h2 class="mb-4">Resumo do Investidor</h2>
+
+<!-- Formulário de busca -->
+<form method="get" class="row g-2 mb-4">
+    <div class="col-auto">
+        <input type="number" name="usuarioId" class="form-control" placeholder="ID do usuário" value="@ViewBag.UsuarioId" required />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <!-- Seus cards existentes aqui... -->
+    <div class="row g-4">
+        <h2 class="mb-0">Resumo do Investidor</h2>
+        <div class="row g-2">
+            <!-- Total Investido por Ativo -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        Total Investido por Ativo
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            @foreach (var ativo in Model.TotalInvestidoPorAtivo)
+                            {
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>@ativo.Key</span>
+                                    <strong>R$ @ativo.Value.ToString("N2")</strong>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posição por Papel -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-secondary text-white">
+                        Posição por Papel
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            @foreach (var papel in Model.PosicaoPorPapel)
+                            {
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>@papel.Key</span>
+                                    <span>@($"{papel.Key} ações @ R${papel.Value:N2}")</span>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posição Global -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        Posição Global
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @if (Model.PosicaoGlobal >= 0)
+                            {
+                                <span class="text-success">+ R$ @Model.PosicaoGlobal.ToString("N2")</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">@Model.PosicaoGlobal.ToString("N2")</span>
+                            }
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total de Corretagem -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        Total de Corretagem
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">R$ @Model.TotalCorretagem.ToString("N2")</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">Nenhum usuário encontrado.</div>
+}

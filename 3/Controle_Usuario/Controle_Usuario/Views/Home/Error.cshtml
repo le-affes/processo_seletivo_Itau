@@ -1,0 +1,27 @@
+﻿@model ControleUsuario.Models.ErrorViewModel;
+
+@{
+    ViewData["Title"] = "Erro";
+}
+
+<h1 class="text-danger">Ocorreu um erro</h1>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p>@Model.Message</p>
+}
+else
+{
+    <p>Desculpe, algo deu errado ao processar sua solicitação.</p>
+}
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>ID da requisição:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<p>
+    <a href="javascript:history.back()">Voltar</a>
+</p>

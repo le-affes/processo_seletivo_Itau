@@ -1,0 +1,41 @@
+﻿@model List<Usuario>
+
+@{
+    ViewData["Title"] = "Buscar Usuário";
+    var hasResults = Model != null && Model.Any();
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Lista de Usuários</h2>
+
+    @if (Model != null && hasResults)
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>% Corretagem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var usuario in Model)
+                {
+                    <tr>
+                        <td>@usuario.Id</td>
+                        <td>@usuario.Nome</td>
+                        <td>@usuario.Email</td>
+                        <td>@usuario.PctCorretagem.ToString("P2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning mt-3" role="alert">
+            Nenhum usuário encontrado.
+        </div>
+    }
+</div>
