@@ -1,0 +1,381 @@
+{
+    "openapi": "3.0.4",
+    "info": {
+        "title": "WebAPI",
+        "version": "1.0"
+    },
+    "paths": {
+        "/Corretora/cotacaoAtivos{codAtivo}": {
+            "get": {
+                "tags": [
+                    "Corretora"
+                ],
+                "parameters": [
+                    {
+                        "name": "codAtivo",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Cotacao"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Cotacao"
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Cotacao"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/Corretora/corretagem-total": {
+            "get": {
+                "tags": [
+                    "Corretora"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "type": "number",
+                                    "format": "double"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "type": "number",
+                                    "format": "double"
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "type": "number",
+                                    "format": "double"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/{idUsr}/preco-medio-ativo": {
+            "get": {
+                "tags": [
+                    "Usuario"
+                ],
+                "parameters": [
+                    {
+                        "name": "idUsr",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PrecoMedioDTO"
+                                    }
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PrecoMedioDTO"
+                                    }
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PrecoMedioDTO"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/{idUsr}/posicao-usuario": {
+            "get": {
+                "tags": [
+                    "Usuario"
+                ],
+                "parameters": [
+                    {
+                        "name": "idUsr",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "codAtivo",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PosicaoDto"
+                                    }
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PosicaoDto"
+                                    }
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/PosicaoDto"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/clientes-top-pl": {
+            "get": {
+                "tags": [
+                    "Usuario"
+                ],
+                "parameters": [
+                    {
+                        "name": "topClientes",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32",
+                            "default": 10
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopClienteDTO"
+                                    }
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopClienteDTO"
+                                    }
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopClienteDTO"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/clientes-top-corretagem": {
+            "get": {
+                "tags": [
+                    "Usuario"
+                ],
+                "parameters": [
+                    {
+                        "name": "topClientes",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32",
+                            "default": 10
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "text/plain": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopCorretagemDto"
+                                    }
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopCorretagemDto"
+                                    }
+                                }
+                            },
+                            "text/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/TopCorretagemDto"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Cotacao": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "idAtivo": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "prcoUni": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "dtHora": {
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "PosicaoDto": {
+                "type": "object",
+                "properties": {
+                    "codigoAtivo": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "quantidade": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "precoMedio": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "pl": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "PrecoMedioDTO": {
+                "type": "object",
+                "properties": {
+                    "idAtivo": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "precoMedio": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "TopClienteDTO": {
+                "type": "object",
+                "properties": {
+                    "idUsuario": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "nomeUsuario": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "valorTotalPL": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "TopCorretagemDto": {
+                "type": "object",
+                "properties": {
+                    "idUsuario": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "nomeUsuario": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "totalCorretagem": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    }
+}

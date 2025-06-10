@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\10\\APICorretora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|c:\\users\\leand\\documents\\ps ita\u00FA\\10\\apicorretora\\webapi\\application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\10\\APICorretora\\WebAPI\\Application\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Application\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\leand\\Documents\\PS Ita\u00FA\\10\\APICorretora\\WebAPI\\Application\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "WebAPI\\Application\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwG4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:20:19.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
