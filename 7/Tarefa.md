@@ -13,7 +13,7 @@ Dentro do projeto, para garantir a segregação de responsabilidades e facilitar
 
 ---
 
-O serviço de consumer do Kafka está implementado na classe `CotacaoConsumerService`.  
+O serviço de consumer do Kafka está implementado na classe `CotacaoConsumerService` [LINK](https://github.com/le-affes/processo_seletivo_Itau/blob/main/7/WorkerService/WorkerService/Application/Consumers/CotacaoConsumerService.cs) 
 
 Esse serviço escuta continuamente um tópico Kafka que recebe cotações de ativos. A cada nova mensagem, ele verifica se a cotação já está registrada no banco de dados, evitando duplicatas.  
 
