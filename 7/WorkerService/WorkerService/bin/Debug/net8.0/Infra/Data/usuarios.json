@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Nome": "Usuário 1",
+        "Email": "user1@email.com",
+        "PctCorretagem": 0.51
+    },
+    {
+      "Id": 2,
+      "Nome": "Usuário 2",
+      "Email": "user2@email.com",
+      "PctCorretagem": 0.41
+    },
+    {
+      "Id": 3,
+      "Nome": "Usuário 3",
+      "Email": "user3@email.com",
+      "PctCorretagem": 0.47
+    },
+    {
+      "Id": 4,
+      "Nome": "Usuário 4",
+      "Email": "user4@email.com",
+      "PctCorretagem": 0.47
+    }
+]
