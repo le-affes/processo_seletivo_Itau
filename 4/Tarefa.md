@@ -1,4 +1,7 @@
-O método referente à essa entrega se chama 'CalcularPrecoMedio' está implementado na classe AnaliseFinanceiraService, do projeto ControleUsuario.
-Segue link: 
+O método referente a esta entrega se chama `CalcularPrecoMedio` e está implementado na classe `AnaliseFinanceiraService`, do projeto **ControleUsuario**.
 
-Durante a execução, me preocupei em tratar entradas inválidas. E depois apliquei a regra de negócio.
+É possível acessá-lo no link:  
+[AnaliseFinanceiraService.cs – GitHub](https://github.com/le-affes/processo_seletivo_Itau/blob/main/3/Controle_Usuario/Controle_Usuario/Application/Services/AnaliseFinanceiraService.cs)
+
+Durante a execução, houve a preocupação em tratar entradas inválidas.  
+Após isso, a regra de negócio foi aplicada corretamente.
