@@ -8,11 +8,11 @@ Abaixo estão as justificativas para os dados escolhidos:
   - Identificador único do ativo, e chave primária da tabela.
 - **cod** (`VARCHAR(15) NOT NULL`)
   - Código do ativo conforme negociado na B3.
-  - Tamanho de até 15 caracteres para suportar diferentes tipos de ativos.
+  - Até 15 caracteres para suportar diferentes tipos de ativos, cujos códigos podem chegar a 7 caracteres.
   - Visa otimizar o uso de armazenamento.
 - **nome** (`VARCHAR(150) NOT NULL`)
   - Nome do ativo conforme registrado na B3.
-  - Suporta nomes longos, especialmente de fundos imobiliários e derivativos.
+  - Até 150 carcateres para suportar nomes longos, especialmente de fundos imobiliários e derivativos.
 
 ---
 
@@ -43,7 +43,7 @@ Abaixo estão as justificativas para os dados escolhidos:
   - Quantidade de ações negociadas.
   - Precisão de duas casas decimais para suportar mercado fracionário (mínimo 0,01).
 - **prco_uni** (`DECIMAL(15,2) NOT NULL`)
-  - Preço unitário da operação.
+  - Preço unitário a qual o ativo foi vendido.
   - Mesmo formato das tabelas `cotacao` e `ativo`.
 - **tipo_opr** (`ENUM('C', 'V') NOT NULL`)
   - Tipo de operação: Compra (C) ou Venda (V).
@@ -53,6 +53,7 @@ Abaixo estão as justificativas para os dados escolhidos:
   - Até 10 dígitos antes da vírgula e 4 casas decimais.
 - **dt_hora** (`DATETIME(6) NOT NULL`)
   - Data e hora da operação com precisão de microssegundos.
+  - Relevante devido à latência da B3 (~350 microssegundos).
 
 ---
 
@@ -81,7 +82,7 @@ Abaixo estão as justificativas para os dados escolhidos:
   - Chave estrangeira que referencia o ativo.
 - **qtd** (`DECIMAL(10,2) NOT NULL`)
   - Quantidade de ações na posição.
-  - Suporte ao mercado fracionário.
+  - Precisão de duas casas para ter suporte ao mercado fracionário (mínimo 0,01 ação).
 - **prco_medio** (`DECIMAL(15,3) NOT NULL`)
   - Custo médio ponderado das aquisições.
   - Alta precisão para armazenar valores monetários.
